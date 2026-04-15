@@ -2,6 +2,7 @@
 #include<string.h>
 
 int main() {
+    /*
     //strcpy codee
     char name1[50],name2[50];
 
@@ -15,8 +16,9 @@ int main() {
     }
     name2[i]='\0';
     puts(name2);
+    */
     
-   /* strcpy using pointers
+    //strcpy using pointers
    
    char name1[50],name2[50];
     char* x;char* y;
@@ -28,16 +30,17 @@ int main() {
     printf("enter the string:\n");
     gets(name1);
 
+    
     while(*x!='\0'){
         *y = *x;
         x++;
         y++;
-        i++;
+        // i++;
     }
-    name2[i]='\0';
+    *y='\0';
 
     puts(name2);
-    */
+    
    
     
     return 0;

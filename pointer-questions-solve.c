@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    /*reversing an array  using pointer
+    reversing an array  using pointer
 
     int num[]={45,36,57,23,56,76};
 
@@ -15,7 +15,7 @@ int main() {
         end--;
     }
     
-    */
+    
 
     
     
